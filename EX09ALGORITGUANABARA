@@ -1,0 +1,2 @@
+dinheiro = float(input('Quanto você tem em R$: '))
+print(f'Você tem em dólares o correspondente a US${dinheiro / 3.45}')
