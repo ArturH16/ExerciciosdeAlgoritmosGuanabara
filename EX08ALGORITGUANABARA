@@ -1,0 +1,2 @@
+distancia = float(input('Digite uma distância em metros: '))
+print(f'A distância {distancia} m corresponde a:\n {distancia/1000} km             {distancia*10} dm\n {distancia/100} hm             {distancia * 100} cm\n {distancia/10} dam             {distancia * 1000} mm')
