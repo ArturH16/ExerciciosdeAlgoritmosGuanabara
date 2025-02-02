@@ -1,0 +1,4 @@
+cigarros = int(input('Quantos cigarros são fumados por dia: '))
+anos = int(input('Por quantos anos a pessoa é fumante: '))
+calculo = (cigarros * 10) * anos * 365 / (24 * 60)
+print(f'Redução do tempo de vida em dias: {calculo}')
