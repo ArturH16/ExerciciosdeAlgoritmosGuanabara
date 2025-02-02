@@ -1,0 +1,36 @@
+segmento_um = float(input('Digite o valor do segmento de reta: '))
+segmento_dois = float(input('Digite o valor do segmento de reta: '))
+segmento_tres = float(input('Digit o valor do segmento de reta: '))
+if segmento_um < segmento_dois and segmento_um < segmento_tres:
+  if segmento_dois < segmento_tres:
+    if segmento_um + segmento_dois < segmento_tres:
+      print('É possível formar um triângulo')
+    else:
+      print(Não é possível formar um triângulo')
+  else:
+    if segmento_um + segmento_tres < segmento_dois:
+      print(É possível formar um triângulo)
+    else:
+      print(Não é possível formar um triângulo')
+elif segmento_dois < segmento_um and segmento_dois < segmento_tres:
+  if segmento_um < segmento_tres:
+    if segmento_dois + segmento_um < segmento_tres:
+      print('É possível formar um triângulo')
+    else:
+      print(Não é possível formar um triângulo')
+  else:
+    if segmento_dois + segmento_tres < segmento_um:
+      print('É possível formar um triângulo')
+    else:
+      print(Não é possível formar um triângulo')
+elif segmento_tres < segmento_um and segmento_tres < segmento_dois:
+  if segmento_um < segmento_dois:
+    if segmento_tres + segmento_um < segmento_dois:
+      print(É possível formar um triângulo')
+    else:
+      print(Não é possível formar um triângulo')
+  else:
+    if segmento_tres + segmento_dois < segmento_um:
+      print('É possível formar um triângulo')
+    else:
+      print(Não é possível formar um triângulo')
