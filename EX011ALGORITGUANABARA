@@ -1,0 +1,5 @@
+a = float(input('Digite o valor de x²: '))
+b = float(input('Digite o valor de x: '))
+c = float(input('Digite o valor do termo independente: '))
+delta = (b**2) - 4 * a * c
+print(f'O valor de delta é {delta:.2f}')
