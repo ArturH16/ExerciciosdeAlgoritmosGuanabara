@@ -1,0 +1,11 @@
+genero_biologico = str(input('Gênero Biológico[M OU F]: ')).upper()
+if genero_biologico == 'M':
+  compras = float(input('Total das compras: '))
+  desconto = compras * 0.95
+  print(f'Você pagará apenas R${desconto:.2f}')
+elif genero_biologico == 'F':
+  compras = float(input('Total das compras: '))
+  desconto = compras * 0.87
+  print(f'PARABÉNS PELO DIA DA MULHER! VOCÊ PAGARÁ APENAS R$ {desconto:.2f}')
+else:
+    print(f'Por favor, digite apenas M ou F')
