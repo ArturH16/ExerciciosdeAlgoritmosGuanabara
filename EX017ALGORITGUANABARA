@@ -1,0 +1,4 @@
+carro = float(input('Digite a velocidade do carro em km/h: '))
+if carro > 80:
+  multa = (carro - 80) * 5
+  print(f'VOCÊ ULTRAPASSOU A VELOCIDADE PERMITIDA!\nMULTA DE R${multa}')
