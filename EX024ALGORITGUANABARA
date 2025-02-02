@@ -1,0 +1,7 @@
+distancia = float(input('Qual a distância a ser percorrida em km/h: '))
+if distancia <= 200:
+  pagamento = distancia * 0.5
+  print(f'Você pagará R${pagamento:.2f}')
+else:
+  pagamento = distancia * 0.45
+  print(f'Você pagará R${pagamento:.2f}')
