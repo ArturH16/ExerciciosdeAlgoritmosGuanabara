@@ -1,0 +1,12 @@
+from datetime import date
+
+
+ano_atual = date.today().year
+print(ano_atual)
+ano_nascimento = int(input('Digite seu ano de nascimento: '))
+if ano_atual - ano_nascimento == 18:
+  print('ESTÁ NA HORA DE ALISTAR')
+elif ano_atual - ano_nascimento > 18:
+  print(f'JÁ SE PASSARAM {ano_atual - ano_nascimento - 18} ANO(S) QUE ERA PARA TER SE ALISTADO')
+else:
+  print(f'FALTAM {ano_nascimento + 18 - ano_atual} ANO(S) PARA O ALISTAMENTO')
