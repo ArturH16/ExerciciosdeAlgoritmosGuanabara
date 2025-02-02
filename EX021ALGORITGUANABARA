@@ -1,0 +1,16 @@
+ano = input('Digite o ano: ')
+if ano[2:] == '00' and ano.isdigit():
+  ano = int(ano)
+  if ano % 400 == 0:
+    print(f'O ANO {ano} É BISSEXTO')
+  else:
+    print(f'O ANO {ano} NÃO É BISSEXTO')
+else:
+  if ano.isdigit():
+    ano = int(ano)
+    if ano % 4 == 0:
+      print(f'O ANO {ano} É BISSEXTO')
+    else:
+      print(f'O ANO {ano} NÃO É BISSEXTO')
+  else:
+    print('DIGITE UM ANO VÁLIDO')
