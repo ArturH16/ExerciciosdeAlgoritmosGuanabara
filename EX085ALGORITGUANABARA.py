@@ -13,5 +13,5 @@ for pos,n in enumerate(nomes):
     for g,mf in enumerate(generos_biologicos):
         if mf.upper() == 'F':
             for p,s in enumerate(salarios):
-                if g == p and g == p and g == pos:
-                    print(f'Pessoa: {n}\nGênero Biológico: {mf}\nSalário: R${s:.2f}')
+                if g == p and g == p and g == pos and s > 5000:
+                    print(f'Pessoa: {n}\nGênero Biológico: {mf.upper()}\nSalário: R${s:.2f}')
